@@ -1,0 +1,14 @@
+# Grabaciones crudas de ros2 bag (muy pesadas; ver datos/README.md)
+*.db3
+*.db3-shm
+*.db3-wal
+metadata.yaml
+# Videos de pantalla
+*.mp4
+*.mkv
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Archivos temporales de Word
+~$*.docx

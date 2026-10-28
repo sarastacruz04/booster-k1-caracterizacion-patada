@@ -1,0 +1,274 @@
+{
+ "patada_01": {
+  "n_msgs": 34,
+  "reloj": "pared",
+  "pub": 3.27,
+  "msg": [
+   0.6,
+   0.0,
+   0.0,
+   1.5
+  ],
+  "pierna": "Derecha",
+  "v_rodilla": 422,
+  "t_swing": 3.18,
+  "giro_swing": -19,
+  "giro_final": 30,
+  "pitch_max": 12.4,
+  "roll_max": 8.4,
+  "dur_grab": 24.9
+ },
+ "patada_02": {
+  "n_msgs": 36,
+  "reloj": "sim",
+  "pub": 1.55,
+  "msg": [
+   0.6,
+   0.0,
+   0.0,
+   1.5
+  ],
+  "pierna": "Derecha",
+  "v_rodilla": 407,
+  "t_swing": 1.56,
+  "giro_swing": -21,
+  "giro_final": 30,
+  "pitch_max": 12.0,
+  "roll_max": 8.3,
+  "dur_grab": 16.5
+ },
+ "patada_03": {
+  "n_msgs": 43,
+  "reloj": "sim",
+  "pub": 1.85,
+  "msg": [
+   0.6,
+   0.0,
+   0.0,
+   1.5
+  ],
+  "pierna": "Derecha",
+  "v_rodilla": 427,
+  "t_swing": 1.9,
+  "giro_swing": -21,
+  "giro_final": 34,
+  "pitch_max": 11.5,
+  "roll_max": 7.8,
+  "dur_grab": 8.5
+ },
+ "dir_p05_1": {
+  "n_msgs": 218,
+  "reloj": "sim",
+  "pub": -184.26,
+  "msg": [
+   0.6,
+   0.0,
+   0.5,
+   1.5
+  ],
+  "pierna": "Derecha",
+  "v_rodilla": 0,
+  "t_swing": -2.7,
+  "giro_swing": 1,
+  "giro_final": -23,
+  "pitch_max": 13.1,
+  "roll_max": 8.2,
+  "dur_grab": -184.2
+ },
+ "dir_p05_2": {
+  "n_msgs": 39,
+  "reloj": "sim",
+  "pub": 1.78,
+  "msg": [
+   0.6,
+   0.0,
+   0.5,
+   1.5
+  ],
+  "pierna": "Derecha",
+  "v_rodilla": 441,
+  "t_swing": 1.52,
+  "giro_swing": -21,
+  "giro_final": 21,
+  "pitch_max": 11.8,
+  "roll_max": 7.5,
+  "dur_grab": 7.4
+ },
+ "dir_n05_1": {
+  "n_msgs": 0,
+  "reloj": "sim"
+ },
+ "goal_n3_1": {
+  "n_msgs": 50,
+  "reloj": "sim",
+  "pub": 2.08,
+  "msg": [
+   0.6,
+   0.0,
+   0.0,
+   1.5
+  ],
+  "pierna": "Izquierda",
+  "v_rodilla": 674,
+  "t_swing": 3.43,
+  "giro_swing": -177,
+  "giro_final": -175,
+  "pitch_max": 18.7,
+  "roll_max": 9.0,
+  "dur_grab": 6.7
+ },
+ "goal_n3_2": {
+  "n_msgs": 49,
+  "reloj": "sim",
+  "pub": 2.08,
+  "msg": [
+   0.6,
+   0.0,
+   0.0,
+   1.5,
+   4.5,
+   -3.0,
+   0.0
+  ],
+  "pierna": "Derecha",
+  "v_rodilla": 766,
+  "t_swing": 2.99,
+  "giro_swing": -205,
+  "giro_final": -203,
+  "pitch_max": 17.6,
+  "roll_max": 9.0,
+  "dur_grab": 8.4
+ },
+ "goal_p3_1": {
+  "n_msgs": 120,
+  "reloj": "sim",
+  "pub": 5.16,
+  "msg": [
+   0.6,
+   0.0,
+   0.0,
+   1.5,
+   4.5,
+   3.0,
+   0.0
+  ],
+  "pierna": "Derecha",
+  "v_rodilla": 687,
+  "t_swing": 6.05,
+  "giro_swing": 589,
+  "giro_final": 596,
+  "pitch_max": 12.4,
+  "roll_max": 7.7,
+  "dur_grab": 16.2
+ },
+ "goal_n05_1": {
+  "n_msgs": 45,
+  "reloj": "sim",
+  "pub": 1.9,
+  "msg": [
+   0.6,
+   0.0,
+   0.0,
+   1.5,
+   4.5,
+   -0.5,
+   0.0
+  ],
+  "pierna": "Izquierda",
+  "v_rodilla": 600,
+  "t_swing": 3.27,
+  "giro_swing": -39,
+  "giro_final": -40,
+  "pitch_max": 16.0,
+  "roll_max": 7.9,
+  "dur_grab": 5.7
+ },
+ "power_6_1": {
+  "n_msgs": 63,
+  "reloj": "sim",
+  "pub": 2.64,
+  "msg": [
+   0.6,
+   0.0,
+   0.0,
+   6.0,
+   4.5,
+   0.0,
+   0.0
+  ],
+  "pierna": "Izquierda",
+  "v_rodilla": 874,
+  "t_swing": 1.74,
+  "giro_swing": -38,
+  "giro_final": -68,
+  "pitch_max": 8.5,
+  "roll_max": 4.8,
+  "dur_grab": 5.9
+ },
+ "power_05_1": {
+  "n_msgs": 79,
+  "reloj": "sim",
+  "pub": 3.41,
+  "msg": [
+   0.6,
+   0.0,
+   0.0,
+   0.5,
+   4.5,
+   -0.5,
+   0.0
+  ],
+  "pierna": "Izquierda",
+  "v_rodilla": 380,
+  "t_swing": 5.18,
+  "giro_swing": -66,
+  "giro_final": -63,
+  "pitch_max": 12.5,
+  "roll_max": 8.2,
+  "dur_grab": 8.0
+ },
+ "power_05_2": {
+  "n_msgs": 104,
+  "reloj": "sim",
+  "pub": 4.44,
+  "msg": [
+   0.6,
+   0.0,
+   0.0,
+   0.5,
+   4.5,
+   0.0,
+   0.0
+  ],
+  "pierna": "Izquierda",
+  "v_rodilla": 462,
+  "t_swing": 5.33,
+  "giro_swing": -27,
+  "giro_final": -25,
+  "pitch_max": 9.8,
+  "roll_max": 7.4,
+  "dur_grab": 8.9
+ },
+ "power_6_2": {
+  "n_msgs": 63,
+  "reloj": "sim",
+  "pub": 2.71,
+  "msg": [
+   0.6,
+   0.0,
+   0.0,
+   6.0,
+   4.5,
+   0.0,
+   0.0
+  ],
+  "pierna": "Izquierda",
+  "v_rodilla": 856,
+  "t_swing": 1.71,
+  "giro_swing": -37,
+  "giro_final": -64,
+  "pitch_max": 8.5,
+  "roll_max": 6.1,
+  "dur_grab": 6.9
+ }
+}

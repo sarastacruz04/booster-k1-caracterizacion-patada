@@ -1,0 +1,6 @@
+# Solo para los scripts de análisis (carpeta analisis/), en un computador con Python 3.10+.
+# El sistema de control (control/) corre dentro del contenedor del robot y no necesita esto.
+numpy
+matplotlib
+pillow
+rosbags

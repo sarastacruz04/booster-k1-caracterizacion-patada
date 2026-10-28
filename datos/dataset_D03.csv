@@ -1,0 +1,42 @@
+﻿ID;Fecha;Fase;Grabación;Serie / parámetro variado;Versión;x (m);y (m);dir (rad);goal_x (m);goal_y (m);power;Duración publicación (s sim);Giro antes del golpe (°, + izq.);Pierna de golpeo;Instante del golpe (s sim desde 1er mensaje);Vel. máx. extensión rodilla (°/s);Pitch máx. torso (°);¿Golpea el balón?;Distancia del balón (D);Dirección del balón (°, + izq. del frente inicial);Validez;Notas
+P4;15/10;F1;—;Baseline (preparación no estándar);V1;0,6;0;0;4,5;0;1,5;;;Izquierda;;;;Sí;;;Válida (cualitativa);"Sin reinicio de escena; balón al frente-izquierda; ~5 s sim hasta el contacto"
+P5;15/10;F1;—;Baseline;V1;0,6;0;0;4,5;0;1,5;;;Derecha;6,0;;;Sí;;;Válida (sin captura cenital);"Frente-izquierda; tiempo medido con Simulation time"
+P6;15/10;F1;—;Baseline;V1;0,6;0;0;4,5;0;1,5;;;Derecha;6,0;;;Sí;1,38;32;Válida;
+P7;15/10;F1;—;Baseline;V1;0,6;0;0;4,5;0;1,5;;;Derecha;3,0;;;Sí;2,28;40;Válida;
+P8;15/10;F1;—;Baseline;V1;0,6;0;0;4,5;0;1,5;;;Derecha;2,0;;;Sí;1,34;47;Válida;
+P9;15/10;F1;—;Baseline;V1;0,6;0;0;4,5;0;1,5;;;Derecha;2,0;;;Sí;1,28;44;Válida;
+patada_01;17/10;F2;patada_01;Baseline (datos del cuerpo);V1;0,6;0;0;4,5;0;1,5;3,27;-19;Derecha;3,18;422;12,4;Sí;;;Válida (sin /clock: tiempos de reloj);Sin captura cenital
+patada_02;17/10;F2;patada_02;Baseline (datos del cuerpo);V1;0,6;0;0;4,5;0;1,5;1,55;-21;Derecha;1,56;407;12,0;Sí;;;Válida;Sin captura cenital
+patada_03;17/10;F2;patada_03;Baseline (datos del cuerpo + video);V1;0,6;0;0;4,5;0;1,5;1,85;-21;Derecha;1,9;427;11,5;Sí;;;Válida;Video sincronizado con /clock
+dir_p05_1;17/10;F3;dir_p05_1;dir;V1;0,6;0;0,5;4,5;0;1,5;;;Derecha;;;;Sí;;;Descartada;"Publicación 21.6 s, dos patadas, reinicio de escena; sin capturas"
+dir_p05_2;17/10;F3;dir_p05_2;dir;V1;0,6;0;0,5;4,5;0;1,5;1,78;-21;Derecha;1,52;441;11,8;Sí;2,34;43,5;Válida;
+dir_n05_1;17/10;F3;dir_n05_1;dir;V1;0,6;0;-0,5;4,5;0;1,5;;;Derecha;;;;Sí;2,35;33,6;Válida para dirección;"Grabación terminó antes de la patada; balón llegó a la valla"
+goal_n3_1;17/10;F3;goal_n3_1;goal_y;V1;0,6;0;0;4,5;-3;1,5;2,08;-181;Derecha;2,95;625;18,7;No (empujón);0,71;-57;Válida;Sin video
+goal_n3_2;18/10;F3;goal_n3_2;goal_y;V1;0,6;0;0;4,5;-3;1,5;2,08;-205;Derecha;2,99;766;17,6;"No (empujón; swing al aire)";0,26;-60;Válida (grabación recuperada);Video
+goal_p3_1;18/10;F3;goal_p3_1;goal_y;V1;0,6;0;0;4,5;3;1,5;5,16;589;Derecha;6,05;687;12,4;No (al aire);0,0;;Válida (grabación recuperada);"Video; ~1.65 vueltas"
+goal_n05_1;18/10;F3;goal_n05_1;goal_y;V1;0,6;0;0;4,5;-0,5;1,5;1,9;-48;Derecha + izquierda;2,73;503;16,0;Débil (empujón);0,38;12;Válida;"Video; segundo swing izquierdo 600°/s a 3.27 s"
+power_6_1;18/10;F3;power_6_1;power;V1;0,6;0;0;4,5;0;6,0;2,64;-38;Izquierda;1,74;874;8,5;No (al aire);0,0;;Válida;Video
+power_05_1;18/10;F3;power_05_1;power + goal_y (error);V1;0,6;0;0;4,5;-0,5;0,5;3,41;-32;Izquierda;2,4;330;12,5;Sí;2,1;-44;Válida (2 parámetros cambiados);"Video; comparar con goal_n05_1"
+power_05_2;18/10;F3;power_05_2;power;V1;0,6;0;0;4,5;0;0,5;4,44;-8;Izquierda;3,31;323;9,8;Sí;0,95;-40;Válida;Video
+power_6_2;18/10;F3;power_6_2;power;V1;0,6;0;0;4,5;0;6,0;2,71;-36;Izquierda;1,71;856;8,5;No (al aire);0,0;;Válida;"Video; repetición de power_6_1"
+B_2;19/10;F4;B_2;Repetición B (power);V1;0,6;0;0;4,5;0;0,5;4,47;≈ 0;Sin golpe limpio (pasos);;520 (paso, 5.38 s);11,5;No (conducción);0,0;;Válida;"Video; robot camina contra el balón"
+B_3;19/10;F4;B_3;Repetición B (power);V1;0,6;0;0;4,5;0;0,5;4,04;−20;Sin golpe limpio (pasos);;564 (5.13 s);10,9;Conducción;0,86;32;Válida;"Video; conduce el balón con pasos cortos"
+C_2;19/10;F4;C_2;Repetición C (goal_y);V1;0,6;0;0;4,5;-0,5;1,5;1,79;≈ −30;Izquierda;2,67;523;14,9;Sí;2,31;-45;Válida;Video
+C_3;19/10;F4;C_3;Repetición C (goal_y);V1;0,6;0;0;4,5;-0,5;1,5;1,85;≈ −45;Derecha;1,98;474;14,7;Sí;1,1;5;Válida;Video
+S_1;19/10;F4;S_1;Shoot();—;;;;;;;0;0;—;;;2,7;No (error 501);0,0;;Válida;client.Shoot() -> RuntimeError code 501
+O_izq_1;19/10;F4;O_izq_1;Órbita +45° (lazo abierto) + A;V1;0,6;0;0;4,5;0;1,5;;+100;Derecha;;446;3,2;No (al aire);0,0;;Válida;Giro real 100°, desplazamiento 0.29 m
+O_der_1;19/10;F4;O_der_1;Órbita −45° (lazo abierto) + C por error;V1;0,6;0;0;4,5;-0,5;1,5;;−89;Derecha;;413;8,8;No (al aire);0,0;;Válida (mensaje equivocado);"Giro real −89°, desplazamiento 0.16 m; sin video"
+R_1;19/10;F4;R_1;Control v1: patada_A();V1;0,6;0;0;4,5;0;1,5;0,09;≈ −8;Derecha;0,27;446;;Sí;1,06;48;Válida;3 mensajes (arranque lento del publicador)
+L_izq_1;19/10;F4;L_izq_1;Control v1: orbitar(40) + patada_A();V1;0,6;0;0;4,5;0;1,5;1,46;+55;Derecha;1,41;475;;No (al aire);0,0;;Válida;"Giro de la órbita 42.4°, error 15 cm; balón a ~0.24 m al patear"
+L_der_1;19/10;F4;L_der_1;Control v1: orbitar(-40) + patada_A();V1;0,6;0;0;4,5;0;1,5;1,36;−31;Derecha;1,66;458;;No;0,03;;Válida;"Giro de la órbita −35.3°, error 11 cm; balón a ~0.34 m al patear"
+R_2;19/10;F4;R_2;"Control v2: patear(""recto"")";V1;0,6;0;0;4,5;0;1,5;3,41;;Derecha;;496;;No (al aire);0,04;;Válida;Publicación cortada antes del golpe
+R_3;19/10;F4;R_3;"Control v3: patear(""recto"")";V1;0,6;0;0;4,5;0;1,5;;≈ +14 (final);Derecha;3,57;424;;Sí;1,3;46;Válida;"Golpe detectado; publicación detenida automáticamente"
+L_izq_2;19/10;F4;L_izq_2;"Control v3: patear(""izquierda"") (órbita 40°)";V1;0,597;0,005;0;4,5;0;1,5;;+38.8 (órbita);Derecha;3,52;449;;No (al aire);0,0;;Válida;"Odom: error 1 cm; video: robot a 0.55 m y 29°"
+L_der_2;19/10;F4;L_der_2;"Control v3: patear(""derecha"") (órbita −40°)";V1;0,566;-0,023;0;4,5;0;1,5;;−37.6 (órbita);Derecha;3,15;382;;No;0,0;;Válida;"Odom: error 3 cm; video: casi no rodeó el balón"
+G_izq_1;19/10;F4;G_izq_1;"Control v4: patear(""izquierda"") (giro +30°)";V1;0,542;-0,221;0;4,5;0;1,5;;+29.4;Derecha;3,51;380;;No;0,05;;Válida;Mensaje coherente con el giro
+G_der_1;19/10;F4;G_der_1;"Control v4: patear(""derecha"") (giro −30°)";V1;0,541;0,222;0;4,5;0;1,5;;−29.6;Derecha;3,68;427;;No (al aire);0,0;;Válida;La patada rebasó el balón ~0.5 m
+P15_izq_1;20/10;F4;P15_izq_1;"Control v5: patear(""izquierda"") (giro +15°)";V1;0,585;-0,114;0;4,5;0;1,5;;+14.6;Derecha;3,48;378;;No;0,0;;Válida;
+P15_der_1;20/10;F4;P15_der_1;"Control v5: patear(""derecha"") (giro −15°)";V1;0,589;0,1;0;4,5;0;1,5;;−12.8;Derecha;4,03;389;;Débil;0,49;-41;Válida;Dirección inesperada
+DEMO_recto;20/10;F4;DEMO_recto;"Demo: patear(""recto"")";V1;0,6;0;0;4,5;0;1,5;;;Derecha;3,64;387;;Sí;;;Válida;Balón al frente-izquierda (video)
+DEMO_retardo;20/10;F4;DEMO_retardo;"Demo: patear(""recto"", retardo=5)";V1;0,6;0;0;4,5;0;1,5;;;Derecha;3,08;400;;Sí;;;Válida;Balón lejos al frente-izquierda
+DEMO_suave;20/10;F4;DEMO_suave;"Demo: patear(""suave"")";V1;0,6;0;0;4,5;0;0,5;;;—;;;;Toque sin golpe;≈ 0;;Válida;Sin golpe fuerte en 8 s
